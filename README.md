@@ -4,4 +4,5 @@
 
 
 
-目录的`[TOC]` 标签，需要支持该标签的markdown编辑器才可以预览。
+目录的`[TOC]` 标签，需要支持该标签的markdown编辑器才可以预览：![Screen Shot 2020-05-10 at 10.32.22 AM](assets/Screen Shot 2020-05-10 at 10.32.22 AM.png)
+

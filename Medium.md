@@ -462,6 +462,32 @@
 
 - 其实写麻烦了，判断条件可以重整更优化，这太啰嗦了。。
 
+### [34. Find First and Last Position of Element in Sorted Array](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)`二分查找`
+
+- 同样是要求时间复杂度 $O(\log n)$ ，是用二分法，我这个可能最坏情况还是 $O(n)$， 问题出在找左右两个index上（第二个循环），[官方正解](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/solution/zai-pai-xu-shu-zu-zhong-cha-zhao-yuan-su-de-di-yi-/)用了两次二分查找，有点巧妙。以下是我的：
+
+  ```python
+  class Solution:
+      def searchRange(self, nums: List[int], target: int) -> List[int]:
+          l,r=0,len(nums)-1
+          idx=-1
+          while l<=r:
+              mid=(r-l)//2+l
+              if nums[mid]==target:
+                  idx=mid
+                  break
+              elif nums[mid]>target: r=mid-1
+              else: l=mid+1
+          l=r=idx
+          if idx!=-1:
+              while (l-1>=0 and nums[l-1]==target) or (r+1<len(nums) and nums[r+1]==target):
+                  if l-1>=0 and nums[l-1]==target: l-=1
+                  if r+1<len(nums)and nums[r+1]==target: r+=1
+          return [l,r]
+  ```
+
+  
+
 ###  [98. Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)
 
 - 就离谱，正解应该是从叶子往上逐层判断，应该会好做很多，最一开始想从上往下找，结果就写的很复杂，好在也能行得通。。。子树的所有左节点都得比它小，右节点比它大，所以从上往下，所有向左拐的节点值都得比它左子树的左右子树大，向右拐的节点值都得比它右子树的左右子树小。所以向左拐时存一个数组，向右拐时存一个数组。即可。
