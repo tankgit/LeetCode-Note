@@ -18,7 +18,7 @@
 
 - Main Steps
 
-    1. 把两个list分别进行分割，从某处一刀两断![Screen Shot 2020-04-25 at 11.39.26 AM](assets/Screen Shot 2020-04-25 at 11.39.26 AM.png)
+    1. 把两个list分别进行分割，从某处一刀两断![Screen Shot 2020-04-25 at 11.39.26 AM](assets/Screen%20Shot%202020-04-25%20at%2011.39.26%20AM.png)
     2. 确认两件事，我们就可以得到答案
        1. $\text{len}(\text{left_part})=\text{len}(\text{right_part})$
        2. $\max(\text{left_part})\leq \min(\text{right_part})$
