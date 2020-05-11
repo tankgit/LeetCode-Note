@@ -486,6 +486,46 @@
           return [l,r]
   ```
 
+### [36. Valid Sudoku](https://leetcode-cn.com/problems/valid-sudoku/)
+
+- 一次迭代判断三个rules，设置hash table来检验重复性
+
+  ```python
+  class Solution:
+      def isValidSudoku(self, board: List[List[str]]) -> bool:
+          rows=[{} for x in range(9)]
+          cols=[{} for x in range(9)]
+          boxs=[{} for x in range(9)]
+  
+          for i in range(9):
+              for j in range(9):
+                  val=board[i][j]
+                  if val=='.': continue
+                  if val in rows[i]: return False
+                  if val in cols[j]: return False
+                  k=i//3*3+j//3
+                  if val in boxs[k]: return False
+                  rows[i][val],cols[j][val],boxs[k][val]=1,1,1
+          return True
+  ```
+
+  
+
+### [50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)㊙️
+
+- 快速幂逼近
+
+  ```python
+  class Solution:
+      def myPow(self, x: float, n: int) -> float:
+          res,k=1,abs(n)
+          while k>0:
+              if k&1==1: res*=x
+              k>>=1
+              x*=x
+          return res if n>0 else 1/res
+  ```
+
   
 
 ###  [98. Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)
@@ -537,6 +577,49 @@
   ```
 
 - 上述解法时间和空间复杂度都是$O(mn)$，其中 $m,n$ 是数组长宽。我们创建了新的 $m\times n$ 矩阵来储存 $dp$ 值，但可以注意到实际上只需要把 $dp$ 值覆盖到原数组即可，不会冲突，空间复杂度变为 $O(1)$
+
+### [236. Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)🔸
+
+- 我的，思路是对的，几种情况考虑是对的，但是写成了这东西。。
+
+  ```python
+  class Solution:
+      def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+          def findNode(target,root,pathway=[]):
+              if target==root: return True
+              l=r=False
+              if root.left: l=findNode(target,root.left,pathway)
+              if root.right: r=findNode(target,root.right,pathway)
+              if l or r: pathway.append(root)
+              return l or r
+      
+          path1,path2=[],[]
+          if root==p or root==q: return root
+          elif (root.left and findNode(p,root.left,path1) and findNode(q,root.left,path2)) or (findNode(p,root.right,path1) and findNode(q,root.right,path2)): 
+              if findNode(q,p): return p
+              elif findNode(p,q): return q
+              else:
+                  i=-1
+                  while -i<=min(len(path1),len(path2)) and path1[i]==path2[i]: i-=1
+                  return path1[i+1]
+          else: return root
+  ```
+
+- 正解
+
+  ```python
+  class Solution:
+      def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+          if not root or root == p or root == q: return root
+          left = self.lowestCommonAncestor(root.left, p, q)
+          right = self.lowestCommonAncestor(root.right, p, q)
+          if not left and not right: return
+          if not left: return right
+          if not right: return left
+          return root
+  ```
+
+  
 
 ### [983. Minimum Cost For Tickets🔹](https://leetcode-cn.com/problems/minimum-cost-for-tickets/)
 

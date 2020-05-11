@@ -246,19 +246,15 @@ class Solution:
 - mine:
 
   ```python
-  class Solution(object):
-      def searchInsert(self, nums, target):
-          """
-          :type nums: List[int]
-          :type target: int
-          :rtype: int
-          """
-          for i in range(len(nums)):
-              if nums[i]>= target:
-                  return i
-          return i+1
+  class Solution:
+      def searchInsert(self, nums: List[int], target: int) -> int:
+          idx=0
+          while idx<len(nums):
+              if nums[idx]>=target:return idx
+              idx+=1
+          return idx
   ```
-
+  
 - one line solution:
 
   ```python
@@ -270,30 +266,23 @@ class Solution:
 - mine:
 
   ```python
-  class Solution(object):
-      def countAndSay(self, n):
-          """
-          :type n: int
-          :rtype: str
-          """
-          ns='1'
-          for i in range(n-1):
-              ns=self.new(ns)
-          return ns
-              
-      def new(self, s):
-          count=1
-          ns=''
-          for i in range(1,len(s)):
-              if s[i]==s[i-1]:
-                  count+=1
-              else:
-                  ns+=str(count)+str(s[i-1])
-                  count=1
-          return ns+str(count)+str(s[-1])
+  class Solution:
+      def countAndSay(self, n: int) -> str:
+          s='1'
+          while n>1:
+              dic=[]
+              pre='#'
+              for i in range(len(s)):
+                  if s[i]!=pre: 
+                      dic.append([s[i],1])
+                      pre=s[i]
+                  else: dic[-1][1]+=1
+              s=''.join([str(x[1])+x[0] for x in dic])
+              n-=1
+          return s
   ```
-
-- great solutions: (for more, [click here](https://leetcode.com/problems/count-and-say/discuss/15999/4-5-lines-Python-solutions))
+  
+- 借助python的库可以这样写，但这样做不好。
 
   ```python
   def countAndSay(self, n):
@@ -302,6 +291,7 @@ class Solution:
           s = re.sub(r'(.)\1*', lambda m: str(len(m.group(0))) + m.group(1), s)
       return s
   ```
+
 
 ### [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)🔹
 

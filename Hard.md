@@ -234,6 +234,68 @@
 
 - 跟大佬的答案一比我这简直是垃圾，[官方解法](https://leetcode-cn.com/problems/longest-valid-parentheses/solution/zui-chang-you-xiao-gua-hao-by-leetcode/)
 
+### [37. Sudoku Solver](https://leetcode-cn.com/problems/sudoku-solver/)🔹🔸
+
+- 这道题哔了🐶了。心累。
+
+  ```python
+  class Solution:
+      def solveSudoku(self, board: List[List[str]]) -> None:
+          """
+          Do not return anything, modify board in-place instead.
+          """
+          def placeHere(val, i,j):
+              rows[i][val]=1
+              cols[j][val]=1
+              boxs[bx(i,j)][val]=1
+              board[i][j]=str(val)
+  
+          def isValid(val, i,j):
+              return not (val in rows[i] or val in cols[j] or val in boxs[bx(i,j)])
+  
+          def remove(val, i,j):
+              del rows[i][val]
+              del cols[j][val]
+              del boxs[bx(i, j)][val]
+              board[i][j] = '.'  
+  
+  
+          def doNext(i,j):
+              if i==8 and j==8: 
+                  nonlocal isSolved
+                  isSolved=True
+              else:
+                  if j==8: doSUDO(i+1,0)
+                  else: doSUDO(i,j+1)
+  
+          def doSUDO(i=0,j=0):
+              if board[i][j] =='.':
+                  for v in range(1,10):
+                      if isValid(v,i,j): 
+                          placeHere(v,i,j)
+                          doNext(i,j)
+                          if not isSolved: remove(v,i,j)
+              else:
+                  doNext(i,j)
+  
+          rows=[{} for x in range(9)]
+          cols=[{} for x in range(9)]
+          boxs=[{} for x in range(9)]
+  
+          bx=lambda i,j:i//3*3+j//3
+  
+          for i in range(9):
+              for j in range(9):
+                  if board[i][j]!='.':
+                      val=int(board[i][j])
+                      placeHere(val,i,j)
+          
+          isSolved=False
+          doSUDO()
+  ```
+
+  
+
 ### [45. Jump Game II](https://leetcode-cn.com/problems/jump-game-ii/)
 
 - 感觉没多难，第一时间想到的就是正解，所以也没看其他方法解析，复习时希望看一下
