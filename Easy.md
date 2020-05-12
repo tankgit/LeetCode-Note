@@ -996,58 +996,42 @@ class Solution(object):
                 return False
     ```
 
-### [155. Min Stack](https://leetcode.com/problems/min-stack/#/description)
+### [155. Min Stack](https://leetcode.com/problems/min-stack/#/description)㊙️
 
-- my first time solution, it can be simpler but this one is faster on `getMin()`:
+- Stack的实现很简单，这道题考查最小栈如何用常数时间实现。利用另外一个辅助栈完成：
 
   ```python
-  import sys
-  
-  class MinStack(object):
+  class MinStack:
   
       def __init__(self):
           """
           initialize your data structure here.
           """
           self.stack=[]
-          self.minn=[]
-          
-          
+          self.min_val=[10**10]
+          return
   
-      def push(self, x):
-          """
-          :type x: int
-          :rtype: void
-          """
+      def push(self, x: int) -> None:
           self.stack.append(x)
-          if self.minn==[] or x<self.minn[-1][0]:
-              self.minn.append([x,len(self.stack)])
-          
-  
-      def pop(self):
-          """
-          :rtype: void
-          """
-          if len(self.stack)==self.minn[-1][1]:
-              self.minn.pop()
-          x=self.stack.pop()
-          
-          
-  
-      def top(self):
-          """
-          :rtype: int
-          """
-          if len(self.stack)==0:
-              return None  
+          if x<self.min_val[-1]:
+              self.min_val.append(x)
           else:
-              return self.stack[-1]
+              self.min_val.append(self.min_val[-1])
   
-      def getMin(self):
-          """
-          :rtype: int
-          """
-          return self.minn[-1][0]
+      def pop(self) -> None:
+          val=self.top()
+          if val!=None:
+              self.stack=self.stack[:-1]
+              self.min_val=self.min_val[:-1]
+          return val
+  
+      def top(self) -> int:
+          if self.stack==[]: return None
+          else: return self.stack[-1]
+  
+      def getMin(self) -> int:
+          if self.stack==[]: return None
+          else: return self.min_val[-1]
   ```
 
 

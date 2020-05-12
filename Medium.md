@@ -509,6 +509,56 @@
           return True
   ```
 
+### [39. Combination Sum](https://leetcode-cn.com/problems/combination-sum/)
+
+- 一看到需要求数组中几个元素的组合来满足某些特定要求，这种一般从局部解决小问题，再合成大结果，选一个数，然后用剩下的重新做这个问题，做出来就返回，做不出来就回溯。其中我先排序，从小往大搜索，另外每次往下追溯时从当前已选取的元素往后，减少重复解出现，以此减少搜索分支（也就是官解所说的剪枝）。一次过：
+
+  ```python
+  class Solution:
+      def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+          res=[]
+          candidates=sorted(candidates)
+          for i in range(len(candidates)):
+              x=candidates[i]
+              if x>target: break
+              if x==target: 
+                  res.append([x])
+                  break
+              n=1
+              while n*x<=target:
+                  sub=self.combinationSum(candidates[i:],target-x*n)
+                  sub=[[x]*n+s for s in sub]
+                  for s in sub:
+                      if s not in res: res.append(s)
+                  n+=1
+          return res
+  ```
+
+- 值得注意的是，每次循环最后的去重消耗时间应该较大，最好采用更优的策略，而不是直接用python自带的element in array这种语法。
+
+### [40. Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii/)
+
+- 此题和39题基本一致，唯一的区别在于candidates不是set而是含有重复元素，且每个元素只能用一次，这个搜索其实更少一点，在我的39题代码上稍作修改就可以了，每次往下搜索时从i+1个元素开始，避免重复使用
+
+  ```python
+  class Solution:
+      def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
+          res=[]
+          candidates=sorted(candidates)
+          for i in range(len(candidates)):
+              x=candidates[i]
+              if x>target: break
+              if x==target: 
+                  res.append([x])
+                  break
+              sub=self.combinationSum2(candidates[i+1:],target-x)
+              sub=[[x]+s for s in sub]
+              for s in sub:
+                  if s not in res:
+                      res.append(s)
+          return res
+  ```
+
   
 
 ### [50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)㊙️

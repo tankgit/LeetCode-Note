@@ -294,6 +294,25 @@
           doSUDO()
   ```
 
+### [41. First Missing Positive](https://leetcode-cn.com/problems/first-missing-positive/)🔹
+
+- 时间复杂度和空间复杂度要求都很高，我们只能在原数组上操作，思路比较巧妙
+
+  ```python
+  class Solution:
+      def firstMissingPositive(self, nums: List[int]) -> int:
+          if 1 not in nums: return 1
+          length=len(nums)
+          for i in range(length):
+              if nums[i]>length or nums[i]<=0: nums[i]=1
+          for x in nums:
+              x=abs(x)
+              if nums[x-1]>0: nums[x-1]*=-1
+          for i in range(length):
+              if nums[i]>0: return i+1
+          return length+1
+  ```
+
   
 
 ### [45. Jump Game II](https://leetcode-cn.com/problems/jump-game-ii/)
