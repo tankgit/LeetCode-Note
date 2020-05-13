@@ -1,6 +1,6 @@
 # LeetCode Notes
 
-Last update: 2020-05-13 21:56
+Last update: 2020-05-13 22:02
 
 Total Finished: 54
 
