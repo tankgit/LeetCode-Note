@@ -1,12 +1,18 @@
 # LeetCode Notes
 
-Last update: 2020-05-13 22:02
+Last update: 2020-05-14 16:54
 
-Total Finished: 54
+**Total Notes: `61`**
+
+---
 
 ## Navigation
 
-|#|题目|难度|标签|标记|
+Index by: [Tags](tags.md) | [Levels](levels.md) | [Marks](mark.md)
+
+## All Problems
+
+|#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
 |1|[两数之和](archive/1.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `哈希表`||
 |2|[两数相加](archive/2.md)|<span style='color:#EE7337'><b>中等</b></span>|`链表` `数学`||
@@ -51,14 +57,21 @@ Total Finished: 54
 |41|[缺失的第一个正数](archive/41.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`数组`|❌|
 |42|[接雨水](archive/42.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`栈` `数组` `双指针`|❌🌀|
 |43|[字符串相乘](archive/43.md)|<span style='color:#EE7337'><b>中等</b></span>|`数学` `字符串`||
+|44|[通配符匹配](archive/44.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`贪心算法` `字符串` `动态规划` `回溯算法`|❌㊙️|
 |45|[跳跃游戏 II](archive/45.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`贪心算法` `数组`||
+|46|[全排列](archive/46.md)|<span style='color:#EE7337'><b>中等</b></span>|`回溯算法`||
+|47|[全排列 II](archive/47.md)|<span style='color:#EE7337'><b>中等</b></span>|`回溯算法`||
+|48|[旋转图像](archive/48.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组`||
+|49|[字母异位词分组](archive/49.md)|<span style='color:#EE7337'><b>中等</b></span>|`哈希表` `字符串`||
 |50|[Pow(x, n)](archive/50.md)|<span style='color:#EE7337'><b>中等</b></span>|`数学` `二分查找`|㊙️|
 |53|[最大子序和](archive/53.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `分治算法` `动态规划`|❌㊙️|
 |69|[x 的平方根](archive/69.md)|<span style='color:#019A75'><b>简单</b></span>|`数学` `二分查找`||
 |98|[验证二叉搜索树](archive/98.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索`|🌀|
 |102|[二叉树的层序遍历](archive/102.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `广度优先搜索`||
+|136|[只出现一次的数字](archive/136.md)|<span style='color:#019A75'><b>简单</b></span>|`位运算` `哈希表`||
 |155|[最小栈](archive/155.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `设计`|㊙️|
 |221|[最大正方形](archive/221.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`||
 |236|[二叉树的最近公共祖先](archive/236.md)|<span style='color:#EE7337'><b>中等</b></span>|`树`|🌀|
+|344|[反转字符串](archive/344.md)|<span style='color:#019A75'><b>简单</b></span>|`双指针` `字符串`||
 |572|[另一个树的子树](archive/572.md)|<span style='color:#019A75'><b>简单</b></span>|`树`||
 |983|[最低票价](archive/983.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|❌|
