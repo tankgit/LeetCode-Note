@@ -1,8 +1,8 @@
 # LeetCode Notes
 
-Last update: 2020-05-14 16:54
+Last update: 2020-05-15 21:46
 
-**Total Notes: `61`**
+**Total Notes: `69`**
 
 ---
 
@@ -64,14 +64,22 @@ Index by: [Tags](tags.md) | [Levels](levels.md) | [Marks](mark.md)
 |48|[旋转图像](archive/48.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组`||
 |49|[字母异位词分组](archive/49.md)|<span style='color:#EE7337'><b>中等</b></span>|`哈希表` `字符串`||
 |50|[Pow(x, n)](archive/50.md)|<span style='color:#EE7337'><b>中等</b></span>|`数学` `二分查找`|㊙️|
+|51|[N皇后](archive/51.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`回溯算法`|🌀|
+|52|[N皇后 II](archive/52.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`回溯算法`||
 |53|[最大子序和](archive/53.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `分治算法` `动态规划`|❌㊙️|
 |69|[x 的平方根](archive/69.md)|<span style='color:#019A75'><b>简单</b></span>|`数学` `二分查找`||
 |98|[验证二叉搜索树](archive/98.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索`|🌀|
 |102|[二叉树的层序遍历](archive/102.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `广度优先搜索`||
 |136|[只出现一次的数字](archive/136.md)|<span style='color:#019A75'><b>简单</b></span>|`位运算` `哈希表`||
+|137|[只出现一次的数字 II](archive/137.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算`|㊙️|
 |155|[最小栈](archive/155.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `设计`|㊙️|
 |221|[最大正方形](archive/221.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`||
 |236|[二叉树的最近公共祖先](archive/236.md)|<span style='color:#EE7337'><b>中等</b></span>|`树`|🌀|
+|260|[只出现一次的数字 III](archive/260.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算`||
 |344|[反转字符串](archive/344.md)|<span style='color:#019A75'><b>简单</b></span>|`双指针` `字符串`||
+|560|[和为K的子数组](archive/560.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
 |572|[另一个树的子树](archive/572.md)|<span style='color:#019A75'><b>简单</b></span>|`树`||
 |983|[最低票价](archive/983.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|❌|
+|1422|[分割字符串的最大得分](archive/1422.md)|<span style='color:#019A75'><b>简单</b></span>|`字符串`||
+|1423|[可获得的最大点数](archive/1423.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划` `Sliding Window`|❌㊙️|
+|1424|[对角线遍历 II](archive/1424.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `数组`||

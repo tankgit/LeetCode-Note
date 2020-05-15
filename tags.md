@@ -2,7 +2,7 @@
 
 ## Tags Cloud
 
-[`数组(19)`](#数组) [`字符串(19)`](#字符串) [`双指针(12)`](#双指针) [`数学(10)`](#数学) [`回溯算法(9)`](#回溯算法) [`哈希表(8)`](#哈希表) [`二分查找(7)`](#二分查找) [`动态规划(7)`](#动态规划) [`链表(6)`](#链表) [`树(4)`](#树) [`分治算法(3)`](#分治算法) [`栈(3)`](#栈) [`贪心算法(2)`](#贪心算法) [`Sliding Window(1)`](#Sliding-Window) [`堆(1)`](#堆) [`深度优先搜索(1)`](#深度优先搜索) [`广度优先搜索(1)`](#广度优先搜索) [`位运算(1)`](#位运算) [`设计(1)`](#设计) 
+[`数组(22)`](#数组) [`字符串(20)`](#字符串) [`双指针(12)`](#双指针) [`回溯算法(11)`](#回溯算法) [`数学(10)`](#数学) [`哈希表(9)`](#哈希表) [`动态规划(8)`](#动态规划) [`二分查找(7)`](#二分查找) [`链表(6)`](#链表) [`树(4)`](#树) [`分治算法(3)`](#分治算法) [`栈(3)`](#栈) [`位运算(3)`](#位运算) [`Sliding Window(2)`](#Sliding-Window) [`贪心算法(2)`](#贪心算法) [`堆(1)`](#堆) [`深度优先搜索(1)`](#深度优先搜索) [`广度优先搜索(1)`](#广度优先搜索) [`设计(1)`](#设计) [`排序(1)`](#排序) 
 
 ## 数组
 
@@ -27,6 +27,9 @@
 |45|[跳跃游戏 II](archive/45.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`贪心算法` `数组`||
 |48|[旋转图像](archive/48.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组`||
 |53|[最大子序和](archive/53.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `分治算法` `动态规划`|❌㊙️|
+|560|[和为K的子数组](archive/560.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
+|1423|[可获得的最大点数](archive/1423.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划` `Sliding Window`|❌㊙️|
+|1424|[对角线遍历 II](archive/1424.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `数组`||
 ## 哈希表
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -39,6 +42,7 @@
 |37|[解数独](archive/37.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`哈希表` `回溯算法`|❌🌀|
 |49|[字母异位词分组](archive/49.md)|<span style='color:#EE7337'><b>中等</b></span>|`哈希表` `字符串`||
 |136|[只出现一次的数字](archive/136.md)|<span style='color:#019A75'><b>简单</b></span>|`位运算` `哈希表`||
+|560|[和为K的子数组](archive/560.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
 ## 链表
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -102,11 +106,13 @@
 |44|[通配符匹配](archive/44.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`贪心算法` `字符串` `动态规划` `回溯算法`|❌㊙️|
 |49|[字母异位词分组](archive/49.md)|<span style='color:#EE7337'><b>中等</b></span>|`哈希表` `字符串`||
 |344|[反转字符串](archive/344.md)|<span style='color:#019A75'><b>简单</b></span>|`双指针` `字符串`||
+|1422|[分割字符串的最大得分](archive/1422.md)|<span style='color:#019A75'><b>简单</b></span>|`字符串`||
 ## Sliding Window
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
 |3|[无重复字符的最长子串](archive/3.md)|<span style='color:#EE7337'><b>中等</b></span>|`哈希表` `双指针` `字符串` `Sliding Window`||
+|1423|[可获得的最大点数](archive/1423.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划` `Sliding Window`|❌㊙️|
 ## 二分查找
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -136,6 +142,7 @@
 |53|[最大子序和](archive/53.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `分治算法` `动态规划`|❌㊙️|
 |221|[最大正方形](archive/221.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`||
 |983|[最低票价](archive/983.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|❌|
+|1423|[可获得的最大点数](archive/1423.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划` `Sliding Window`|❌㊙️|
 ## 回溯算法
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -149,6 +156,8 @@
 |44|[通配符匹配](archive/44.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`贪心算法` `字符串` `动态规划` `回溯算法`|❌㊙️|
 |46|[全排列](archive/46.md)|<span style='color:#EE7337'><b>中等</b></span>|`回溯算法`||
 |47|[全排列 II](archive/47.md)|<span style='color:#EE7337'><b>中等</b></span>|`回溯算法`||
+|51|[N皇后](archive/51.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`回溯算法`|🌀|
+|52|[N皇后 II](archive/52.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`回溯算法`||
 ## 栈
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -190,8 +199,15 @@
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
 |136|[只出现一次的数字](archive/136.md)|<span style='color:#019A75'><b>简单</b></span>|`位运算` `哈希表`||
+|137|[只出现一次的数字 II](archive/137.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算`|㊙️|
+|260|[只出现一次的数字 III](archive/260.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算`||
 ## 设计
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
 |155|[最小栈](archive/155.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `设计`|㊙️|
+## 排序
+
+|#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|:---:|---|:---:|---|---|
+|1424|[对角线遍历 II](archive/1424.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `数组`||

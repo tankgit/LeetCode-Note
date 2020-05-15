@@ -2,7 +2,7 @@
 
 [TOC]
 
-## ❌没有独立做出来(7)
+## ❌没有独立做出来(9)
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
@@ -12,8 +12,10 @@
 |42|[接雨水](archive/42.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`栈` `数组` `双指针`|❌🌀|
 |44|[通配符匹配](archive/44.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`贪心算法` `字符串` `动态规划` `回溯算法`|❌㊙️|
 |53|[最大子序和](archive/53.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `分治算法` `动态规划`|❌㊙️|
+|560|[和为K的子数组](archive/560.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
 |983|[最低票价](archive/983.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|❌|
-## 🌀消耗时间太久(8)
+|1423|[可获得的最大点数](archive/1423.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划` `Sliding Window`|❌㊙️|
+## 🌀消耗时间太久(9)
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
@@ -23,9 +25,10 @@
 |33|[搜索旋转排序数组](archive/33.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `二分查找`|🌀|
 |37|[解数独](archive/37.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`哈希表` `回溯算法`|❌🌀|
 |42|[接雨水](archive/42.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`栈` `数组` `双指针`|❌🌀|
+|51|[N皇后](archive/51.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`回溯算法`|🌀|
 |98|[验证二叉搜索树](archive/98.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索`|🌀|
 |236|[二叉树的最近公共祖先](archive/236.md)|<span style='color:#EE7337'><b>中等</b></span>|`树`|🌀|
-## ㊙️涉及知识很重要(7)
+## ㊙️涉及知识很重要(10)
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
@@ -35,7 +38,10 @@
 |44|[通配符匹配](archive/44.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`贪心算法` `字符串` `动态规划` `回溯算法`|❌㊙️|
 |50|[Pow(x, n)](archive/50.md)|<span style='color:#EE7337'><b>中等</b></span>|`数学` `二分查找`|㊙️|
 |53|[最大子序和](archive/53.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `分治算法` `动态规划`|❌㊙️|
+|137|[只出现一次的数字 II](archive/137.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算`|㊙️|
 |155|[最小栈](archive/155.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `设计`|㊙️|
+|560|[和为K的子数组](archive/560.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
+|1423|[可获得的最大点数](archive/1423.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划` `Sliding Window`|❌㊙️|
 ## 🔑面试很可能会出(1)
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
