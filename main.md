@@ -1,8 +1,8 @@
 # LeetCode Notes
 
-Last update: 2020-05-15 21:46
+Last update: 2020-05-16 15:47
 
-**Total Notes: `69`**
+**Total Notes: `76`**
 
 ---
 
@@ -67,6 +67,13 @@ Index by: [Tags](tags.md) | [Levels](levels.md) | [Marks](mark.md)
 |51|[N皇后](archive/51.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`回溯算法`|🌀|
 |52|[N皇后 II](archive/52.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`回溯算法`||
 |53|[最大子序和](archive/53.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `分治算法` `动态规划`|❌㊙️|
+|54|[螺旋矩阵](archive/54.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组`||
+|55|[跳跃游戏](archive/55.md)|<span style='color:#EE7337'><b>中等</b></span>|`贪心算法` `数组`||
+|56|[合并区间](archive/56.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `数组`||
+|57|[插入区间](archive/57.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`排序` `数组`||
+|58|[最后一个单词的长度](archive/58.md)|<span style='color:#019A75'><b>简单</b></span>|`字符串`||
+|59|[螺旋矩阵 II](archive/59.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组`||
+|60|[第k个排列](archive/60.md)|<span style='color:#EE7337'><b>中等</b></span>|`数学` `回溯算法`||
 |69|[x 的平方根](archive/69.md)|<span style='color:#019A75'><b>简单</b></span>|`数学` `二分查找`||
 |98|[验证二叉搜索树](archive/98.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索`|🌀|
 |102|[二叉树的层序遍历](archive/102.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `广度优先搜索`||
