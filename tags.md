@@ -2,7 +2,7 @@
 
 ## Tags Cloud
 
-[`数组(27)`](#数组) [`字符串(21)`](#字符串) [`双指针(12)`](#双指针) [`回溯算法(12)`](#回溯算法) [`数学(11)`](#数学) [`哈希表(9)`](#哈希表) [`动态规划(8)`](#动态规划) [`二分查找(7)`](#二分查找) [`链表(6)`](#链表) [`树(4)`](#树) [`分治算法(3)`](#分治算法) [`栈(3)`](#栈) [`贪心算法(3)`](#贪心算法) [`排序(3)`](#排序) [`位运算(3)`](#位运算) [`Sliding Window(2)`](#Sliding-Window) [`堆(1)`](#堆) [`深度优先搜索(1)`](#深度优先搜索) [`广度优先搜索(1)`](#广度优先搜索) [`设计(1)`](#设计) 
+[`数组(29)`](#数组) [`字符串(21)`](#字符串) [`双指针(12)`](#双指针) [`回溯算法(12)`](#回溯算法) [`数学(11)`](#数学) [`动态规划(10)`](#动态规划) [`哈希表(9)`](#哈希表) [`二分查找(8)`](#二分查找) [`链表(7)`](#链表) [`分治算法(4)`](#分治算法) [`栈(4)`](#栈) [`树(4)`](#树) [`位运算(4)`](#位运算) [`贪心算法(3)`](#贪心算法) [`排序(3)`](#排序) [`Sliding Window(2)`](#Sliding-Window) [`设计(2)`](#设计) [`堆(1)`](#堆) [`深度优先搜索(1)`](#深度优先搜索) [`广度优先搜索(1)`](#广度优先搜索) 
 
 ## 数组
 
@@ -32,6 +32,8 @@
 |56|[合并区间](archive/56.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `数组`||
 |57|[插入区间](archive/57.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`排序` `数组`||
 |59|[螺旋矩阵 II](archive/59.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组`||
+|121|[买卖股票的最佳时机](archive/121.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `动态规划`|㊙️|
+|169|[多数元素](archive/169.md)|<span style='color:#019A75'><b>简单</b></span>|`位运算` `数组` `分治算法`||
 |560|[和为K的子数组](archive/560.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
 |1423|[可获得的最大点数](archive/1423.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划` `Sliding Window`|❌㊙️|
 |1424|[对角线遍历 II](archive/1424.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `数组`||
@@ -58,6 +60,7 @@
 |23|[合并K个排序链表](archive/23.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`堆` `链表` `分治算法`|㊙️|
 |24|[两两交换链表中的节点](archive/24.md)|<span style='color:#EE7337'><b>中等</b></span>|`链表`||
 |25|[K 个一组翻转链表](archive/25.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`链表`||
+|206|[反转链表](archive/206.md)|<span style='color:#019A75'><b>简单</b></span>|`链表`||
 ## 数学
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -131,6 +134,7 @@
 |35|[搜索插入位置](archive/35.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `二分查找`||
 |50|[Pow(x, n)](archive/50.md)|<span style='color:#EE7337'><b>中等</b></span>|`数学` `二分查找`|㊙️|
 |69|[x 的平方根](archive/69.md)|<span style='color:#019A75'><b>简单</b></span>|`数学` `二分查找`||
+|300|[最长上升子序列](archive/300.md)|<span style='color:#EE7337'><b>中等</b></span>|`二分查找` `动态规划`|❌㊙️|
 ## 分治算法
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -138,6 +142,7 @@
 |4|[寻找两个正序数组的中位数](archive/4.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`数组` `二分查找` `分治算法`|🌀|
 |23|[合并K个排序链表](archive/23.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`堆` `链表` `分治算法`|㊙️|
 |53|[最大子序和](archive/53.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `分治算法` `动态规划`|❌㊙️|
+|169|[多数元素](archive/169.md)|<span style='color:#019A75'><b>简单</b></span>|`位运算` `数组` `分治算法`||
 ## 动态规划
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -147,7 +152,9 @@
 |32|[最长有效括号](archive/32.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`字符串` `动态规划`||
 |44|[通配符匹配](archive/44.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`贪心算法` `字符串` `动态规划` `回溯算法`|❌㊙️|
 |53|[最大子序和](archive/53.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `分治算法` `动态规划`|❌㊙️|
+|121|[买卖股票的最佳时机](archive/121.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `动态规划`|㊙️|
 |221|[最大正方形](archive/221.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`||
+|300|[最长上升子序列](archive/300.md)|<span style='color:#EE7337'><b>中等</b></span>|`二分查找` `动态规划`|❌㊙️|
 |983|[最低票价](archive/983.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|❌|
 |1423|[可获得的最大点数](archive/1423.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划` `Sliding Window`|❌㊙️|
 ## 回溯算法
@@ -173,6 +180,7 @@
 |20|[有效的括号](archive/20.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `字符串`||
 |42|[接雨水](archive/42.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`栈` `数组` `双指针`|❌🌀|
 |155|[最小栈](archive/155.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `设计`|㊙️|
+|225|[用队列实现栈](archive/225.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `设计`||
 ## 堆
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -216,9 +224,11 @@
 |:---:|---|:---:|---|---|
 |136|[只出现一次的数字](archive/136.md)|<span style='color:#019A75'><b>简单</b></span>|`位运算` `哈希表`||
 |137|[只出现一次的数字 II](archive/137.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算`|㊙️|
+|169|[多数元素](archive/169.md)|<span style='color:#019A75'><b>简单</b></span>|`位运算` `数组` `分治算法`||
 |260|[只出现一次的数字 III](archive/260.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算`||
 ## 设计
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
 |155|[最小栈](archive/155.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `设计`|㊙️|
+|225|[用队列实现栈](archive/225.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `设计`||
