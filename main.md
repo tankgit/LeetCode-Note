@@ -1,8 +1,8 @@
 # LeetCode Notes
 
-Last update: 2020-05-16 23:28
+Last update: 2020-05-17 17:43
 
-**Total Notes: `81`**
+**Total Notes: `87`**
 
 ---
 
@@ -83,11 +83,13 @@ Index by: [Tags](tags.md) | [Levels](levels.md) | [Marks](mark.md)
 |155|[最小栈](archive/155.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `设计`|㊙️|
 |169|[多数元素](archive/169.md)|<span style='color:#019A75'><b>简单</b></span>|`位运算` `数组` `分治算法`||
 |206|[反转链表](archive/206.md)|<span style='color:#019A75'><b>简单</b></span>|`链表`||
+|210|[课程表 II](archive/210.md)|<span style='color:#EE7337'><b>中等</b></span>|`深度优先搜索` `广度优先搜索` `图` `拓扑排序`|🌀㊙️|
 |221|[最大正方形](archive/221.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`||
 |225|[用队列实现栈](archive/225.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `设计`||
 |236|[二叉树的最近公共祖先](archive/236.md)|<span style='color:#EE7337'><b>中等</b></span>|`树`|🌀|
 |260|[只出现一次的数字 III](archive/260.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算`||
 |300|[最长上升子序列](archive/300.md)|<span style='color:#EE7337'><b>中等</b></span>|`二分查找` `动态规划`|❌㊙️|
+|322|[零钱兑换](archive/322.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|㊙️|
 |344|[反转字符串](archive/344.md)|<span style='color:#019A75'><b>简单</b></span>|`双指针` `字符串`||
 |560|[和为K的子数组](archive/560.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
 |572|[另一个树的子树](archive/572.md)|<span style='color:#019A75'><b>简单</b></span>|`树`||
@@ -95,3 +97,7 @@ Index by: [Tags](tags.md) | [Levels](levels.md) | [Marks](mark.md)
 |1422|[分割字符串的最大得分](archive/1422.md)|<span style='color:#019A75'><b>简单</b></span>|`字符串`||
 |1423|[可获得的最大点数](archive/1423.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划` `Sliding Window`|❌㊙️|
 |1424|[对角线遍历 II](archive/1424.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `数组`||
+|5412|[在既定时间做作业的学生人数](archive/5412.md)|<span style='color:#019A75'><b>简单</b></span>|`数组`||
+|5413|[重新排列句子中的单词](archive/5413.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `字符串`||
+|5414|[收藏清单](archive/5414.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `字符串`||
+|5415|[圆形靶内的最大飞镖数量](archive/5415.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`几何`||
