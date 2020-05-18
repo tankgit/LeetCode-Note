@@ -1,8 +1,8 @@
 # LeetCode Notes
 
-Last update: 2020-05-18 20:46
+Last update: 2020-05-18 23:07
 
-**Total Notes: `94`**
+**Total Notes: `95`**
 
 ---
 
@@ -100,6 +100,7 @@ Index by: [Tags](tags.md) | [Levels](levels.md) | [Marks](mark.md)
 |695|[岛屿的最大面积](archive/695.md)|<span style='color:#EE7337'><b>中等</b></span>|`深度优先搜索` `数组`||
 |820|[单词的压缩编码](archive/820.md)|<span style='color:#EE7337'><b>中等</b></span>|`无`||
 |836|[矩形重叠](archive/836.md)|<span style='color:#019A75'><b>简单</b></span>|`数学`||
+|876|[链表的中间结点](archive/876.md)|<span style='color:#019A75'><b>简单</b></span>|`链表`||
 |983|[最低票价](archive/983.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|❌|
 |1422|[分割字符串的最大得分](archive/1422.md)|<span style='color:#019A75'><b>简单</b></span>|`字符串`||
 |1423|[可获得的最大点数](archive/1423.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划` `Sliding Window`|❌㊙️|
