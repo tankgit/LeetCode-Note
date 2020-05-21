@@ -2,7 +2,7 @@
 
 [TOC]
 
-## ❌没有独立做出来(10)
+## ❌没有独立做出来(11)
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
@@ -15,8 +15,9 @@
 |300|[最长上升子序列](archive/300.md)|<span style='color:#EE7337'><b>中等</b></span>|`二分查找` `动态规划`|❌㊙️|
 |560|[和为K的子数组](archive/560.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
 |983|[最低票价](archive/983.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|❌|
+|1371|[每个元音包含偶数次的最长子字符串](archive/1371.md)|<span style='color:#EE7337'><b>中等</b></span>|`字符串`|❌🌀㊙️|
 |1423|[可获得的最大点数](archive/1423.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划` `Sliding Window`|❌㊙️|
-## 🌀消耗时间太久(11)
+## 🌀消耗时间太久(12)
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
@@ -31,7 +32,8 @@
 |210|[课程表 II](archive/210.md)|<span style='color:#EE7337'><b>中等</b></span>|`深度优先搜索` `广度优先搜索` `图` `拓扑排序`|🌀㊙️|
 |236|[二叉树的最近公共祖先](archive/236.md)|<span style='color:#EE7337'><b>中等</b></span>|`树`|🌀|
 |365|[水壶问题](archive/365.md)|<span style='color:#EE7337'><b>中等</b></span>|`数学`|🌀|
-## ㊙️涉及知识很重要(14)
+|1371|[每个元音包含偶数次的最长子字符串](archive/1371.md)|<span style='color:#EE7337'><b>中等</b></span>|`字符串`|❌🌀㊙️|
+## ㊙️涉及知识很重要(15)
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
@@ -48,6 +50,7 @@
 |300|[最长上升子序列](archive/300.md)|<span style='color:#EE7337'><b>中等</b></span>|`二分查找` `动态规划`|❌㊙️|
 |322|[零钱兑换](archive/322.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|㊙️|
 |560|[和为K的子数组](archive/560.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
+|1371|[每个元音包含偶数次的最长子字符串](archive/1371.md)|<span style='color:#EE7337'><b>中等</b></span>|`字符串`|❌🌀㊙️|
 |1423|[可获得的最大点数](archive/1423.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划` `Sliding Window`|❌㊙️|
 ## 🔑面试很可能会出(1)
 
