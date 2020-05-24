@@ -2,7 +2,7 @@
 
 ## Tags Cloud
 
-[`数组(34)`](#数组) [`字符串(25)`](#字符串) [`数学(15)`](#数学) [`双指针(12)`](#双指针) [`动态规划(12)`](#动态规划) [`回溯算法(12)`](#回溯算法) [`哈希表(10)`](#哈希表) [`链表(8)`](#链表) [`二分查找(8)`](#二分查找) [`排序(5)`](#排序) [`树(5)`](#树) [`分治算法(4)`](#分治算法) [`栈(4)`](#栈) [`位运算(4)`](#位运算) [`贪心算法(3)`](#贪心算法) [`深度优先搜索(3)`](#深度优先搜索) [`Sliding Window(2)`](#Sliding-Window) [`广度优先搜索(2)`](#广度优先搜索) [`设计(2)`](#设计) [`无(2)`](#无) [`几何(2)`](#几何) [`堆(1)`](#堆) [`图(1)`](#图) [`拓扑排序(1)`](#拓扑排序) 
+[`数组(36)`](#数组) [`字符串(28)`](#字符串) [`数学(15)`](#数学) [`双指针(13)`](#双指针) [`动态规划(12)`](#动态规划) [`回溯算法(12)`](#回溯算法) [`哈希表(11)`](#哈希表) [`链表(8)`](#链表) [`二分查找(8)`](#二分查找) [`树(8)`](#树) [`深度优先搜索(6)`](#深度优先搜索) [`排序(5)`](#排序) [`位运算(5)`](#位运算) [`Sliding Window(4)`](#Sliding-Window) [`分治算法(4)`](#分治算法) [`栈(4)`](#栈) [`贪心算法(3)`](#贪心算法) [`广度优先搜索(2)`](#广度优先搜索) [`设计(2)`](#设计) [`无(2)`](#无) [`几何(2)`](#几何) [`堆(1)`](#堆) [`图(1)`](#图) [`拓扑排序(1)`](#拓扑排序) 
 
 ## 数组
 
@@ -32,6 +32,8 @@
 |56|[合并区间](archive/56.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `数组`||
 |57|[插入区间](archive/57.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`排序` `数组`||
 |59|[螺旋矩阵 II](archive/59.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组`||
+|105|[从前序与中序遍历序列构造二叉树](archive/105.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
+|106|[从中序与后序遍历序列构造二叉树](archive/106.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
 |121|[买卖股票的最佳时机](archive/121.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `动态规划`|㊙️|
 |152|[乘积最大子数组](archive/152.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划`||
 |169|[多数元素](archive/169.md)|<span style='color:#019A75'><b>简单</b></span>|`位运算` `数组` `分治算法`||
@@ -53,6 +55,7 @@
 |36|[有效的数独](archive/36.md)|<span style='color:#EE7337'><b>中等</b></span>|`哈希表`||
 |37|[解数独](archive/37.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`哈希表` `回溯算法`|❌🌀|
 |49|[字母异位词分组](archive/49.md)|<span style='color:#EE7337'><b>中等</b></span>|`哈希表` `字符串`||
+|76|[最小覆盖子串](archive/76.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`哈希表` `双指针` `字符串` `Sliding Window`|❌㊙️|
 |136|[只出现一次的数字](archive/136.md)|<span style='color:#019A75'><b>简单</b></span>|`位运算` `哈希表`||
 |409|[最长回文串](archive/409.md)|<span style='color:#019A75'><b>简单</b></span>|`哈希表`||
 |560|[和为K的子数组](archive/560.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
@@ -102,6 +105,7 @@
 |28|[实现 strStr()](archive/28.md)|<span style='color:#019A75'><b>简单</b></span>|`双指针` `字符串`||
 |30|[串联所有单词的子串](archive/30.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`哈希表` `双指针` `字符串`|㊙️|
 |42|[接雨水](archive/42.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`栈` `数组` `双指针`|❌🌀|
+|76|[最小覆盖子串](archive/76.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`哈希表` `双指针` `字符串` `Sliding Window`|❌㊙️|
 |344|[反转字符串](archive/344.md)|<span style='color:#019A75'><b>简单</b></span>|`双指针` `字符串`||
 ## 字符串
 
@@ -126,18 +130,23 @@
 |44|[通配符匹配](archive/44.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`贪心算法` `字符串` `动态规划` `回溯算法`|❌㊙️|
 |49|[字母异位词分组](archive/49.md)|<span style='color:#EE7337'><b>中等</b></span>|`哈希表` `字符串`||
 |58|[最后一个单词的长度](archive/58.md)|<span style='color:#019A75'><b>简单</b></span>|`字符串`||
+|76|[最小覆盖子串](archive/76.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`哈希表` `双指针` `字符串` `Sliding Window`|❌㊙️|
 |344|[反转字符串](archive/344.md)|<span style='color:#019A75'><b>简单</b></span>|`双指针` `字符串`||
 |680|[验证回文字符串 Ⅱ](archive/680.md)|<span style='color:#019A75'><b>简单</b></span>|`字符串`||
 |1371|[每个元音包含偶数次的最长子字符串](archive/1371.md)|<span style='color:#EE7337'><b>中等</b></span>|`字符串`|❌🌀㊙️|
 |1422|[分割字符串的最大得分](archive/1422.md)|<span style='color:#019A75'><b>简单</b></span>|`字符串`||
 |5413|[重新排列句子中的单词](archive/5413.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `字符串`||
 |5414|[收藏清单](archive/5414.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `字符串`||
+|5416|[检查单词是否为句中其他单词的前缀](archive/5416.md)|<span style='color:#019A75'><b>简单</b></span>|`字符串`||
+|5417|[定长子串中元音的最大数目](archive/5417.md)|<span style='color:#EE7337'><b>中等</b></span>|`字符串` `Sliding Window`||
 ## Sliding Window
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
 |3|[无重复字符的最长子串](archive/3.md)|<span style='color:#EE7337'><b>中等</b></span>|`哈希表` `双指针` `字符串` `Sliding Window`||
+|76|[最小覆盖子串](archive/76.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`哈希表` `双指针` `字符串` `Sliding Window`|❌㊙️|
 |1423|[可获得的最大点数](archive/1423.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划` `Sliding Window`|❌㊙️|
+|5417|[定长子串中元音的最大数目](archive/5417.md)|<span style='color:#EE7337'><b>中等</b></span>|`字符串` `Sliding Window`||
 ## 二分查找
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -225,16 +234,22 @@
 |:---:|---|:---:|---|---|
 |98|[验证二叉搜索树](archive/98.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索`|🌀|
 |102|[二叉树的层序遍历](archive/102.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `广度优先搜索`||
+|105|[从前序与中序遍历序列构造二叉树](archive/105.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
+|106|[从中序与后序遍历序列构造二叉树](archive/106.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
 |236|[二叉树的最近公共祖先](archive/236.md)|<span style='color:#EE7337'><b>中等</b></span>|`树`|🌀|
 |543|[二叉树的直径](archive/543.md)|<span style='color:#019A75'><b>简单</b></span>|`树`||
 |572|[另一个树的子树](archive/572.md)|<span style='color:#019A75'><b>简单</b></span>|`树`||
+|5418|[二叉树中的伪回文路径](archive/5418.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算` `树` `深度优先搜索`||
 ## 深度优先搜索
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
 |98|[验证二叉搜索树](archive/98.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索`|🌀|
+|105|[从前序与中序遍历序列构造二叉树](archive/105.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
+|106|[从中序与后序遍历序列构造二叉树](archive/106.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
 |210|[课程表 II](archive/210.md)|<span style='color:#EE7337'><b>中等</b></span>|`深度优先搜索` `广度优先搜索` `图` `拓扑排序`|🌀㊙️|
 |695|[岛屿的最大面积](archive/695.md)|<span style='color:#EE7337'><b>中等</b></span>|`深度优先搜索` `数组`||
+|5418|[二叉树中的伪回文路径](archive/5418.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算` `树` `深度优先搜索`||
 ## 广度优先搜索
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -249,6 +264,7 @@
 |137|[只出现一次的数字 II](archive/137.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算`|㊙️|
 |169|[多数元素](archive/169.md)|<span style='color:#019A75'><b>简单</b></span>|`位运算` `数组` `分治算法`||
 |260|[只出现一次的数字 III](archive/260.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算`||
+|5418|[二叉树中的伪回文路径](archive/5418.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算` `树` `深度优先搜索`||
 ## 设计
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|

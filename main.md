@@ -1,8 +1,8 @@
 # LeetCode Notes
 
-Last update: 2020-05-21 14:00
+Last update: 2020-05-24 23:07
 
-**Total Notes: `101`**
+**Total Notes: `107`**
 
 ---
 
@@ -75,8 +75,11 @@ Index by: [Tags](tags.md) | [Levels](levels.md) | [Marks](mark.md)
 |59|[螺旋矩阵 II](archive/59.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组`||
 |60|[第k个排列](archive/60.md)|<span style='color:#EE7337'><b>中等</b></span>|`数学` `回溯算法`||
 |69|[x 的平方根](archive/69.md)|<span style='color:#019A75'><b>简单</b></span>|`数学` `二分查找`||
+|76|[最小覆盖子串](archive/76.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`哈希表` `双指针` `字符串` `Sliding Window`|❌㊙️|
 |98|[验证二叉搜索树](archive/98.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索`|🌀|
 |102|[二叉树的层序遍历](archive/102.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `广度优先搜索`||
+|105|[从前序与中序遍历序列构造二叉树](archive/105.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
+|106|[从中序与后序遍历序列构造二叉树](archive/106.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
 |121|[买卖股票的最佳时机](archive/121.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `动态规划`|㊙️|
 |136|[只出现一次的数字](archive/136.md)|<span style='color:#019A75'><b>简单</b></span>|`位运算` `哈希表`||
 |137|[只出现一次的数字 II](archive/137.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算`|㊙️|
@@ -115,3 +118,6 @@ Index by: [Tags](tags.md) | [Levels](levels.md) | [Marks](mark.md)
 |5413|[重新排列句子中的单词](archive/5413.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `字符串`||
 |5414|[收藏清单](archive/5414.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `字符串`||
 |5415|[圆形靶内的最大飞镖数量](archive/5415.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`几何`||
+|5416|[检查单词是否为句中其他单词的前缀](archive/5416.md)|<span style='color:#019A75'><b>简单</b></span>|`字符串`||
+|5417|[定长子串中元音的最大数目](archive/5417.md)|<span style='color:#EE7337'><b>中等</b></span>|`字符串` `Sliding Window`||
+|5418|[二叉树中的伪回文路径](archive/5418.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算` `树` `深度优先搜索`||
