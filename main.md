@@ -1,8 +1,8 @@
 # LeetCode Notes
 
-Last update: 2020-05-24 23:07
+Last update: 2020-05-26 12:54
 
-**Total Notes: `107`**
+**Total Notes: `109`**
 
 ---
 
@@ -83,6 +83,7 @@ Index by: [Tags](tags.md) | [Levels](levels.md) | [Marks](mark.md)
 |121|[买卖股票的最佳时机](archive/121.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `动态规划`|㊙️|
 |136|[只出现一次的数字](archive/136.md)|<span style='color:#019A75'><b>简单</b></span>|`位运算` `哈希表`||
 |137|[只出现一次的数字 II](archive/137.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算`|㊙️|
+|146|[LRU缓存机制](archive/146.md)|<span style='color:#EE7337'><b>中等</b></span>|`设计`|❌🌀㊙️|
 |152|[乘积最大子数组](archive/152.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划`||
 |155|[最小栈](archive/155.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `设计`|㊙️|
 |169|[多数元素](archive/169.md)|<span style='color:#019A75'><b>简单</b></span>|`位运算` `数组` `分治算法`||
@@ -92,6 +93,7 @@ Index by: [Tags](tags.md) | [Levels](levels.md) | [Marks](mark.md)
 |225|[用队列实现栈](archive/225.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `设计`||
 |236|[二叉树的最近公共祖先](archive/236.md)|<span style='color:#EE7337'><b>中等</b></span>|`树`|🌀|
 |260|[只出现一次的数字 III](archive/260.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算`||
+|287|[寻找重复数](archive/287.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `双指针` `二分查找`|❌㊙️|
 |300|[最长上升子序列](archive/300.md)|<span style='color:#EE7337'><b>中等</b></span>|`二分查找` `动态规划`|❌㊙️|
 |322|[零钱兑换](archive/322.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|㊙️|
 |344|[反转字符串](archive/344.md)|<span style='color:#019A75'><b>简单</b></span>|`双指针` `字符串`||
