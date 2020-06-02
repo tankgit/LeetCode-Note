@@ -1,8 +1,8 @@
 # LeetCode Notes
 
-Last update: 2020-05-27 12:14
+Last update: 2020-06-02 22:48
 
-**Total Notes: `110`**
+**Total Notes: `122`**
 
 ---
 
@@ -74,9 +74,12 @@ Index by: [Tags](tags.md) | [Levels](levels.md) | [Marks](mark.md)
 |58|[最后一个单词的长度](archive/58.md)|<span style='color:#019A75'><b>简单</b></span>|`字符串`||
 |59|[螺旋矩阵 II](archive/59.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组`||
 |60|[第k个排列](archive/60.md)|<span style='color:#EE7337'><b>中等</b></span>|`数学` `回溯算法`||
+|0064|[求1+2+…+n](archive/0064.md)|<span style='color:#EE7337'><b>中等</b></span>|`无`|🔑|
 |69|[x 的平方根](archive/69.md)|<span style='color:#019A75'><b>简单</b></span>|`数学` `二分查找`||
 |76|[最小覆盖子串](archive/76.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`哈希表` `双指针` `字符串` `Sliding Window`|❌㊙️|
+|84|[柱状图中最大的矩形](archive/84.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`栈` `数组`|❌㊙️|
 |98|[验证二叉搜索树](archive/98.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索`|🌀|
+|101|[对称二叉树](archive/101.md)|<span style='color:#019A75'><b>简单</b></span>|`树` `深度优先搜索` `广度优先搜索`|❌㊙️|
 |102|[二叉树的层序遍历](archive/102.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `广度优先搜索`||
 |105|[从前序与中序遍历序列构造二叉树](archive/105.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
 |106|[从中序与后序遍历序列构造二叉树](archive/106.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
@@ -87,6 +90,7 @@ Index by: [Tags](tags.md) | [Levels](levels.md) | [Marks](mark.md)
 |152|[乘积最大子数组](archive/152.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划`||
 |155|[最小栈](archive/155.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `设计`|㊙️|
 |169|[多数元素](archive/169.md)|<span style='color:#019A75'><b>简单</b></span>|`位运算` `数组` `分治算法`||
+|198|[打家劫舍](archive/198.md)|<span style='color:#019A75'><b>简单</b></span>|`动态规划`||
 |206|[反转链表](archive/206.md)|<span style='color:#019A75'><b>简单</b></span>|`链表`||
 |210|[课程表 II](archive/210.md)|<span style='color:#EE7337'><b>中等</b></span>|`深度优先搜索` `广度优先搜索` `图` `拓扑排序`|🌀㊙️|
 |221|[最大正方形](archive/221.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`||
@@ -98,6 +102,7 @@ Index by: [Tags](tags.md) | [Levels](levels.md) | [Marks](mark.md)
 |322|[零钱兑换](archive/322.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|㊙️|
 |344|[反转字符串](archive/344.md)|<span style='color:#019A75'><b>简单</b></span>|`双指针` `字符串`||
 |365|[水壶问题](archive/365.md)|<span style='color:#EE7337'><b>中等</b></span>|`数学`|🌀|
+|394|[字符串解码](archive/394.md)|<span style='color:#EE7337'><b>中等</b></span>|`栈` `深度优先搜索`||
 |409|[最长回文串](archive/409.md)|<span style='color:#019A75'><b>简单</b></span>|`哈希表`||
 |543|[二叉树的直径](archive/543.md)|<span style='color:#019A75'><b>简单</b></span>|`树`||
 |560|[和为K的子数组](archive/560.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
@@ -113,10 +118,17 @@ Index by: [Tags](tags.md) | [Levels](levels.md) | [Marks](mark.md)
 |945|[使数组唯一的最小增量](archive/945.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组`||
 |974|[和可被 K 整除的子数组](archive/974.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
 |983|[最低票价](archive/983.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|❌|
+|994|[腐烂的橘子](archive/994.md)|<span style='color:#EE7337'><b>中等</b></span>|`广度优先搜索`||
+|999|[可以被一步捕获的棋子数](archive/999.md)|<span style='color:#019A75'><b>简单</b></span>|`数组`||
+|1013|[将数组分成和相等的三个部分](archive/1013.md)|<span style='color:#019A75'><b>简单</b></span>|`数组`||
+|1071|[字符串的最大公因子](archive/1071.md)|<span style='color:#019A75'><b>简单</b></span>|`字符串`||
+|1103|[分糖果 II](archive/1103.md)|<span style='color:#019A75'><b>简单</b></span>|`数学`||
+|1160|[拼写单词](archive/1160.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `哈希表`||
 |1371|[每个元音包含偶数次的最长子字符串](archive/1371.md)|<span style='color:#EE7337'><b>中等</b></span>|`字符串`|❌🌀㊙️|
 |1422|[分割字符串的最大得分](archive/1422.md)|<span style='color:#019A75'><b>简单</b></span>|`字符串`||
 |1423|[可获得的最大点数](archive/1423.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划` `Sliding Window`|❌㊙️|
 |1424|[对角线遍历 II](archive/1424.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `数组`||
+|1431|[拥有最多糖果的孩子](archive/1431.md)|<span style='color:#019A75'><b>简单</b></span>|`数组`||
 |5412|[在既定时间做作业的学生人数](archive/5412.md)|<span style='color:#019A75'><b>简单</b></span>|`数组`||
 |5413|[重新排列句子中的单词](archive/5413.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `字符串`||
 |5414|[收藏清单](archive/5414.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `字符串`||

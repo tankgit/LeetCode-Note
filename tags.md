@@ -2,7 +2,7 @@
 
 ## Tags Cloud
 
-[`数组(38)`](#数组) [`字符串(28)`](#字符串) [`数学(15)`](#数学) [`双指针(14)`](#双指针) [`哈希表(12)`](#哈希表) [`动态规划(12)`](#动态规划) [`回溯算法(12)`](#回溯算法) [`二分查找(9)`](#二分查找) [`链表(8)`](#链表) [`树(8)`](#树) [`深度优先搜索(6)`](#深度优先搜索) [`排序(5)`](#排序) [`位运算(5)`](#位运算) [`Sliding Window(4)`](#Sliding-Window) [`分治算法(4)`](#分治算法) [`栈(4)`](#栈) [`贪心算法(3)`](#贪心算法) [`设计(3)`](#设计) [`广度优先搜索(2)`](#广度优先搜索) [`无(2)`](#无) [`几何(2)`](#几何) [`堆(1)`](#堆) [`图(1)`](#图) [`拓扑排序(1)`](#拓扑排序) 
+[`数组(43)`](#数组) [`字符串(29)`](#字符串) [`数学(16)`](#数学) [`双指针(14)`](#双指针) [`哈希表(13)`](#哈希表) [`动态规划(13)`](#动态规划) [`回溯算法(12)`](#回溯算法) [`二分查找(9)`](#二分查找) [`树(9)`](#树) [`链表(8)`](#链表) [`深度优先搜索(8)`](#深度优先搜索) [`栈(6)`](#栈) [`排序(5)`](#排序) [`位运算(5)`](#位运算) [`Sliding Window(4)`](#Sliding-Window) [`分治算法(4)`](#分治算法) [`广度优先搜索(4)`](#广度优先搜索) [`贪心算法(3)`](#贪心算法) [`无(3)`](#无) [`设计(3)`](#设计) [`几何(2)`](#几何) [`堆(1)`](#堆) [`图(1)`](#图) [`拓扑排序(1)`](#拓扑排序) 
 
 ## 数组
 
@@ -32,6 +32,7 @@
 |56|[合并区间](archive/56.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `数组`||
 |57|[插入区间](archive/57.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`排序` `数组`||
 |59|[螺旋矩阵 II](archive/59.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组`||
+|84|[柱状图中最大的矩形](archive/84.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`栈` `数组`|❌㊙️|
 |105|[从前序与中序遍历序列构造二叉树](archive/105.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
 |106|[从中序与后序遍历序列构造二叉树](archive/106.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
 |121|[买卖股票的最佳时机](archive/121.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `动态规划`|㊙️|
@@ -43,8 +44,12 @@
 |914|[卡牌分组](archive/914.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `数学`||
 |945|[使数组唯一的最小增量](archive/945.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组`||
 |974|[和可被 K 整除的子数组](archive/974.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
+|999|[可以被一步捕获的棋子数](archive/999.md)|<span style='color:#019A75'><b>简单</b></span>|`数组`||
+|1013|[将数组分成和相等的三个部分](archive/1013.md)|<span style='color:#019A75'><b>简单</b></span>|`数组`||
+|1160|[拼写单词](archive/1160.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `哈希表`||
 |1423|[可获得的最大点数](archive/1423.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划` `Sliding Window`|❌㊙️|
 |1424|[对角线遍历 II](archive/1424.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `数组`||
+|1431|[拥有最多糖果的孩子](archive/1431.md)|<span style='color:#019A75'><b>简单</b></span>|`数组`||
 |5412|[在既定时间做作业的学生人数](archive/5412.md)|<span style='color:#019A75'><b>简单</b></span>|`数组`||
 ## 哈希表
 
@@ -62,6 +67,7 @@
 |409|[最长回文串](archive/409.md)|<span style='color:#019A75'><b>简单</b></span>|`哈希表`||
 |560|[和为K的子数组](archive/560.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
 |974|[和可被 K 整除的子数组](archive/974.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
+|1160|[拼写单词](archive/1160.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `哈希表`||
 ## 链表
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -93,6 +99,7 @@
 |836|[矩形重叠](archive/836.md)|<span style='color:#019A75'><b>简单</b></span>|`数学`||
 |892|[三维形体的表面积](archive/892.md)|<span style='color:#019A75'><b>简单</b></span>|`几何` `数学`||
 |914|[卡牌分组](archive/914.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `数学`||
+|1103|[分糖果 II](archive/1103.md)|<span style='color:#019A75'><b>简单</b></span>|`数学`||
 ## 双指针
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -137,6 +144,7 @@
 |76|[最小覆盖子串](archive/76.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`哈希表` `双指针` `字符串` `Sliding Window`|❌㊙️|
 |344|[反转字符串](archive/344.md)|<span style='color:#019A75'><b>简单</b></span>|`双指针` `字符串`||
 |680|[验证回文字符串 Ⅱ](archive/680.md)|<span style='color:#019A75'><b>简单</b></span>|`字符串`||
+|1071|[字符串的最大公因子](archive/1071.md)|<span style='color:#019A75'><b>简单</b></span>|`字符串`||
 |1371|[每个元音包含偶数次的最长子字符串](archive/1371.md)|<span style='color:#EE7337'><b>中等</b></span>|`字符串`|❌🌀㊙️|
 |1422|[分割字符串的最大得分](archive/1422.md)|<span style='color:#019A75'><b>简单</b></span>|`字符串`||
 |5413|[重新排列句子中的单词](archive/5413.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `字符串`||
@@ -183,6 +191,7 @@
 |53|[最大子序和](archive/53.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `分治算法` `动态规划`|❌㊙️|
 |121|[买卖股票的最佳时机](archive/121.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `动态规划`|㊙️|
 |152|[乘积最大子数组](archive/152.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划`||
+|198|[打家劫舍](archive/198.md)|<span style='color:#019A75'><b>简单</b></span>|`动态规划`||
 |221|[最大正方形](archive/221.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`||
 |300|[最长上升子序列](archive/300.md)|<span style='color:#EE7337'><b>中等</b></span>|`二分查找` `动态规划`|❌㊙️|
 |322|[零钱兑换](archive/322.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|㊙️|
@@ -210,8 +219,10 @@
 |:---:|---|:---:|---|---|
 |20|[有效的括号](archive/20.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `字符串`||
 |42|[接雨水](archive/42.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`栈` `数组` `双指针`|❌🌀|
+|84|[柱状图中最大的矩形](archive/84.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`栈` `数组`|❌㊙️|
 |155|[最小栈](archive/155.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `设计`|㊙️|
 |225|[用队列实现栈](archive/225.md)|<span style='color:#019A75'><b>简单</b></span>|`栈` `设计`||
+|394|[字符串解码](archive/394.md)|<span style='color:#EE7337'><b>中等</b></span>|`栈` `深度优先搜索`||
 ## 堆
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -233,11 +244,19 @@
 |1424|[对角线遍历 II](archive/1424.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `数组`||
 |5413|[重新排列句子中的单词](archive/5413.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `字符串`||
 |5414|[收藏清单](archive/5414.md)|<span style='color:#EE7337'><b>中等</b></span>|`排序` `字符串`||
+## 无
+
+|#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+|:---:|---|:---:|---|---|
+|0064|[求1+2+…+n](archive/0064.md)|<span style='color:#EE7337'><b>中等</b></span>|`无`|🔑|
+|820|[单词的压缩编码](archive/820.md)|<span style='color:#EE7337'><b>中等</b></span>|`无`||
+|912|[排序数组](archive/912.md)|<span style='color:#EE7337'><b>中等</b></span>|`无`||
 ## 树
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
 |98|[验证二叉搜索树](archive/98.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索`|🌀|
+|101|[对称二叉树](archive/101.md)|<span style='color:#019A75'><b>简单</b></span>|`树` `深度优先搜索` `广度优先搜索`|❌㊙️|
 |102|[二叉树的层序遍历](archive/102.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `广度优先搜索`||
 |105|[从前序与中序遍历序列构造二叉树](archive/105.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
 |106|[从中序与后序遍历序列构造二叉树](archive/106.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
@@ -250,17 +269,21 @@
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
 |98|[验证二叉搜索树](archive/98.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索`|🌀|
+|101|[对称二叉树](archive/101.md)|<span style='color:#019A75'><b>简单</b></span>|`树` `深度优先搜索` `广度优先搜索`|❌㊙️|
 |105|[从前序与中序遍历序列构造二叉树](archive/105.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
 |106|[从中序与后序遍历序列构造二叉树](archive/106.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
 |210|[课程表 II](archive/210.md)|<span style='color:#EE7337'><b>中等</b></span>|`深度优先搜索` `广度优先搜索` `图` `拓扑排序`|🌀㊙️|
+|394|[字符串解码](archive/394.md)|<span style='color:#EE7337'><b>中等</b></span>|`栈` `深度优先搜索`||
 |695|[岛屿的最大面积](archive/695.md)|<span style='color:#EE7337'><b>中等</b></span>|`深度优先搜索` `数组`||
 |5418|[二叉树中的伪回文路径](archive/5418.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算` `树` `深度优先搜索`||
 ## 广度优先搜索
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
+|101|[对称二叉树](archive/101.md)|<span style='color:#019A75'><b>简单</b></span>|`树` `深度优先搜索` `广度优先搜索`|❌㊙️|
 |102|[二叉树的层序遍历](archive/102.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `广度优先搜索`||
 |210|[课程表 II](archive/210.md)|<span style='color:#EE7337'><b>中等</b></span>|`深度优先搜索` `广度优先搜索` `图` `拓扑排序`|🌀㊙️|
+|994|[腐烂的橘子](archive/994.md)|<span style='color:#EE7337'><b>中等</b></span>|`广度优先搜索`||
 ## 位运算
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -287,12 +310,6 @@
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
 |210|[课程表 II](archive/210.md)|<span style='color:#EE7337'><b>中等</b></span>|`深度优先搜索` `广度优先搜索` `图` `拓扑排序`|🌀㊙️|
-## 无
-
-|#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-|:---:|---|:---:|---|---|
-|820|[单词的压缩编码](archive/820.md)|<span style='color:#EE7337'><b>中等</b></span>|`无`||
-|912|[排序数组](archive/912.md)|<span style='color:#EE7337'><b>中等</b></span>|`无`||
 ## 几何
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
