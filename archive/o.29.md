@@ -1,8 +1,8 @@
-# [面试题29. 顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)
+# [剑指 Offer 29. 顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)
 
 ---
 
-难度 `简单` | 标签 `数组`  | 获赞 `50`
+难度 `简单` | 标签 `数组`  | 获赞 `109`
 
 ---
 
@@ -39,20 +39,21 @@ section pre{
 ## My Solution
 
 ```python
-class Solution:
-    def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
-        i,j=0,0
-        k=[0,1,0,-1]
-        M,N=len(matrix),len(matrix[0]) if matrix else 0
-        total=M*N
-        res=[]
-        while total>0:
-            res.append(matrix[i][j])
-            total-=1
-            matrix[i][j]='a'
-            if not 0<=i+k[0]<M or not 0<=j+k[1]<N or matrix[i+k[0]][j+k[1]]=='a' : k=k[1:]+k[:1]
-            i+=k[0]
-            j+=k[1]
-        return res
+class Solution:
+    def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
+        i,j=0,0
+        k=[0,1,0,-1]
+        M,N=len(matrix),len(matrix[0]) if matrix else 0
+        total=M*N
+        res=[]
+        while total>0:
+            res.append(matrix[i][j])
+            total-=1
+            matrix[i][j]='a'
+            if not 0<=i+k[0]<M or not 0<=j+k[1]<N or matrix[i+k[0]][j+k[1]]=='a' 
+: k=k[1:]+k[:1]
+            i+=k[0]
+            j+=k[1]
+        return res
 ```
 

@@ -1,8 +1,8 @@
-# [面试题46. 把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)
+# [剑指 Offer 46. 把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)
 
 ---
 
-难度 `中等` | 标签 `无` | 获赞 `72`
+难度 `中等` | 获赞 `108`
 
 ---
 
@@ -33,21 +33,21 @@ section pre{
 ## My Solution
 
 ```python
-class Solution:
-    def translateNum(self, num: int) -> int:
-        n=0
-        k='012345'
-        def trans(s):
-            if not s:
-                nonlocal n
-                n+=1
-                return
-            if len(s)==1: trans([])
-            elif s[0]=='1' or (s[0]=='2' and s[1] in k):
-                trans(s[1:])
-                trans(s[2:])
-            else: trans(s[1:])
-        trans(str(num))
-        return n
+class Solution:
+    def translateNum(self, num: int) -> int:
+        n=0
+        k='012345'
+        def trans(s):
+            if not s:
+                nonlocal n
+                n+=1
+                return
+            if len(s)==1: trans([])
+            elif s[0]=='1' or (s[0]=='2' and s[1] in k):
+                trans(s[1:])
+                trans(s[2:])
+            else: trans(s[1:])
+        trans(str(num))
+        return n
 ```
 

@@ -2,7 +2,7 @@
 
 [TOC]
 
-## ❌没有独立做出来(29)
+## ❌没有独立做出来(35)
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
@@ -13,16 +13,22 @@
 |44|[通配符匹配](archive/44.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`贪心算法` `字符串` `动态规划` `回溯算法`|❌㊙️|
 |53|[最大子序和](archive/53.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `分治算法` `动态规划`|❌㊙️|
 |70|[爬楼梯](archive/70.md)|<span style='color:#019A75'><b>简单</b></span>|`动态规划`|❌㊙️|
+|72|[编辑距离](archive/72.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`字符串` `动态规划`|❌㊙️|
 |76|[最小覆盖子串](archive/76.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`哈希表` `双指针` `字符串` `Sliding Window`|❌㊙️|
 |84|[柱状图中最大的矩形](archive/84.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`栈` `数组`|❌㊙️|
+|97|[交错字符串](archive/97.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`字符串` `动态规划`|❌㊙️|
 |101|[对称二叉树](archive/101.md)|<span style='color:#019A75'><b>简单</b></span>|`树` `深度优先搜索` `广度优先搜索`|❌㊙️|
+|124|[二叉树中的最大路径和](archive/124.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`树` `深度优先搜索`|❌㊙️🔑|
 |128|[最长连续序列](archive/128.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`并查集` `数组`|❌㊙️|
+|135|[分发糖果](archive/135.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`贪心算法`|❌㊙️|
 |146|[LRU缓存机制](archive/146.md)|<span style='color:#EE7337'><b>中等</b></span>|`设计`|❌🌀㊙️|
 |287|[寻找重复数](archive/287.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `双指针` `二分查找`|❌㊙️|
 |300|[最长上升子序列](archive/300.md)|<span style='color:#EE7337'><b>中等</b></span>|`二分查找` `动态规划`|❌㊙️|
 |309|[最佳买卖股票时机含冷冻期](archive/309.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|❌㊙️|
+|312|[戳气球](archive/312.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`分治算法` `动态规划`|❌㊙️|
 |315|[计算右侧小于当前元素的个数](archive/315.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`排序` `树状数组` `线段树` `二分查找` `分治算法`|❌㊙️|
 |378|[有序矩阵中第K小的元素](archive/378.md)|<span style='color:#EE7337'><b>中等</b></span>|`堆` `二分查找`|❌㊙️|
+|440|[字典序的第K小数字](archive/440.md)|<span style='color:#5c0e0a'><b>困难</b></span>||❌㊙️🔑|
 |560|[和为K的子数组](archive/560.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
 |718|[最长重复子数组](archive/718.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表` `二分查找` `动态规划`|❌|
 |739|[每日温度](archive/739.md)|<span style='color:#EE7337'><b>中等</b></span>|`栈` `哈希表`|❌㊙️|
@@ -53,7 +59,7 @@
 |365|[水壶问题](archive/365.md)|<span style='color:#EE7337'><b>中等</b></span>|`数学`|🌀|
 |990|[等式方程的可满足性](archive/990.md)|<span style='color:#EE7337'><b>中等</b></span>|`并查集` `图`|🌀|
 |1371|[每个元音包含偶数次的最长子字符串](archive/1371.md)|<span style='color:#EE7337'><b>中等</b></span>|`字符串`|❌🌀㊙️|
-## ㊙️涉及知识很重要(38)
+## ㊙️涉及知识很重要(45)
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
@@ -65,13 +71,17 @@
 |50|[Pow(x, n)](archive/50.md)|<span style='color:#EE7337'><b>中等</b></span>|`数学` `二分查找`|㊙️|
 |53|[最大子序和](archive/53.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `分治算法` `动态规划`|❌㊙️|
 |70|[爬楼梯](archive/70.md)|<span style='color:#019A75'><b>简单</b></span>|`动态规划`|❌㊙️|
+|72|[编辑距离](archive/72.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`字符串` `动态规划`|❌㊙️|
 |76|[最小覆盖子串](archive/76.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`哈希表` `双指针` `字符串` `Sliding Window`|❌㊙️|
 |84|[柱状图中最大的矩形](archive/84.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`栈` `数组`|❌㊙️|
+|97|[交错字符串](archive/97.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`字符串` `动态规划`|❌㊙️|
 |101|[对称二叉树](archive/101.md)|<span style='color:#019A75'><b>简单</b></span>|`树` `深度优先搜索` `广度优先搜索`|❌㊙️|
 |105|[从前序与中序遍历序列构造二叉树](archive/105.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
 |106|[从中序与后序遍历序列构造二叉树](archive/106.md)|<span style='color:#EE7337'><b>中等</b></span>|`树` `深度优先搜索` `数组`|㊙️|
 |121|[买卖股票的最佳时机](archive/121.md)|<span style='color:#019A75'><b>简单</b></span>|`数组` `动态规划`|㊙️|
+|124|[二叉树中的最大路径和](archive/124.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`树` `深度优先搜索`|❌㊙️🔑|
 |128|[最长连续序列](archive/128.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`并查集` `数组`|❌㊙️|
+|135|[分发糖果](archive/135.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`贪心算法`|❌㊙️|
 |137|[只出现一次的数字 II](archive/137.md)|<span style='color:#EE7337'><b>中等</b></span>|`位运算`|㊙️|
 |139|[单词拆分](archive/139.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|㊙️|
 |146|[LRU缓存机制](archive/146.md)|<span style='color:#EE7337'><b>中等</b></span>|`设计`|❌🌀㊙️|
@@ -82,9 +92,11 @@
 |287|[寻找重复数](archive/287.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `双指针` `二分查找`|❌㊙️|
 |300|[最长上升子序列](archive/300.md)|<span style='color:#EE7337'><b>中等</b></span>|`二分查找` `动态规划`|❌㊙️|
 |309|[最佳买卖股票时机含冷冻期](archive/309.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|❌㊙️|
+|312|[戳气球](archive/312.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`分治算法` `动态规划`|❌㊙️|
 |315|[计算右侧小于当前元素的个数](archive/315.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`排序` `树状数组` `线段树` `二分查找` `分治算法`|❌㊙️|
 |322|[零钱兑换](archive/322.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|㊙️|
 |378|[有序矩阵中第K小的元素](archive/378.md)|<span style='color:#EE7337'><b>中等</b></span>|`堆` `二分查找`|❌㊙️|
+|440|[字典序的第K小数字](archive/440.md)|<span style='color:#5c0e0a'><b>困难</b></span>||❌㊙️🔑|
 |560|[和为K的子数组](archive/560.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
 |739|[每日温度](archive/739.md)|<span style='color:#EE7337'><b>中等</b></span>|`栈` `哈希表`|❌㊙️|
 |837|[新21点](archive/837.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|❌㊙️|
@@ -94,10 +106,12 @@
 |1371|[每个元音包含偶数次的最长子字符串](archive/1371.md)|<span style='color:#EE7337'><b>中等</b></span>|`字符串`|❌🌀㊙️|
 |1423|[可获得的最大点数](archive/1423.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `动态规划` `Sliding Window`|❌㊙️|
 |5438|[制作 m 束花所需的最少天数](archive/5438.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `二分查找`|❌㊙️|
+|o.40|[最小的k个数](archive/o.40.md)|<span style='color:#019A75'><b>简单</b></span>|`堆` `分治算法`|㊙️|
 |m.17.13|[恢复空格](archive/m.17.13.md)|<span style='color:#EE7337'><b>中等</b></span>|`记忆化` `字符串`|❌㊙️|
-## 🔑面试很可能会出(2)
+## 🔑面试很可能会出(3)
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
 |11|[盛最多水的容器](archive/11.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `双指针`|🔑|
-|m.64|[求1+2+…+n](archive/m.64.md)|<span style='color:#EE7337'><b>中等</b></span>|`无`|🔑|
+|124|[二叉树中的最大路径和](archive/124.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`树` `深度优先搜索`|❌㊙️🔑|
+|440|[字典序的第K小数字](archive/440.md)|<span style='color:#5c0e0a'><b>困难</b></span>||❌㊙️🔑|

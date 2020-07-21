@@ -1,8 +1,8 @@
-# [面试题64. 求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)
+# [剑指 Offer 64. 求1+2+…+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)
 
 ---
 
-难度 `中等` | 标签 `无` | 个人标签 🔑 | 获赞 `133`
+难度 `中等` | 获赞 `165`
 
 ---
 
@@ -37,13 +37,9 @@ section pre{
 ## My Solution
 
 ```python
-class Solution:
-    def sumNums(self, n: int) -> int:
-        if n==1: return 1
-        else: return n+self.sumNums(n-1)
+class Solution:
+    def sumNums(self, n: int) -> int:
+        if n==1: return 1
+        else: return n+self.sumNums(n-1)
 ```
-
-[官方题解](https://leetcode-cn.com/problems/qiu-12n-lcof/solution/qiu-12n-by-leetcode-solution/)给出了不用递归的做法，运用到了一些位运算，但是最后为了解决循环问题，感觉有点取巧，这题出的并不怎么好。
-
-不过，位运算那里的思路还是挺重要的。
 
