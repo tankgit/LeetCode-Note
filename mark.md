@@ -2,7 +2,7 @@
 
 [TOC]
 
-## ❌没有独立做出来(35)
+## ❌没有独立做出来(37)
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
@@ -28,8 +28,10 @@
 |312|[戳气球](archive/312.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`分治算法` `动态规划`|❌㊙️|
 |315|[计算右侧小于当前元素的个数](archive/315.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`排序` `树状数组` `线段树` `二分查找` `分治算法`|❌㊙️|
 |378|[有序矩阵中第K小的元素](archive/378.md)|<span style='color:#EE7337'><b>中等</b></span>|`堆` `二分查找`|❌㊙️|
+|410|[分割数组的最大值](archive/410.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`二分查找` `动态规划`|❌㊙️|
 |440|[字典序的第K小数字](archive/440.md)|<span style='color:#5c0e0a'><b>困难</b></span>||❌㊙️🔑|
 |560|[和为K的子数组](archive/560.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
+|632|[最小区间](archive/632.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`哈希表` `双指针` `字符串`|❌㊙️|
 |718|[最长重复子数组](archive/718.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表` `二分查找` `动态规划`|❌|
 |739|[每日温度](archive/739.md)|<span style='color:#EE7337'><b>中等</b></span>|`栈` `哈希表`|❌㊙️|
 |837|[新21点](archive/837.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|❌㊙️|
@@ -59,7 +61,7 @@
 |365|[水壶问题](archive/365.md)|<span style='color:#EE7337'><b>中等</b></span>|`数学`|🌀|
 |990|[等式方程的可满足性](archive/990.md)|<span style='color:#EE7337'><b>中等</b></span>|`并查集` `图`|🌀|
 |1371|[每个元音包含偶数次的最长子字符串](archive/1371.md)|<span style='color:#EE7337'><b>中等</b></span>|`字符串`|❌🌀㊙️|
-## ㊙️涉及知识很重要(45)
+## ㊙️涉及知识很重要(48)
 
 |#|题目|&nbsp;难度&nbsp;|标签|标记&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 |:---:|---|:---:|---|---|
@@ -95,9 +97,12 @@
 |312|[戳气球](archive/312.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`分治算法` `动态规划`|❌㊙️|
 |315|[计算右侧小于当前元素的个数](archive/315.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`排序` `树状数组` `线段树` `二分查找` `分治算法`|❌㊙️|
 |322|[零钱兑换](archive/322.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|㊙️|
+|329|[矩阵中的最长递增路径](archive/329.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`深度优先搜索` `拓扑排序` `记忆化`|㊙️|
 |378|[有序矩阵中第K小的元素](archive/378.md)|<span style='color:#EE7337'><b>中等</b></span>|`堆` `二分查找`|❌㊙️|
+|410|[分割数组的最大值](archive/410.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`二分查找` `动态规划`|❌㊙️|
 |440|[字典序的第K小数字](archive/440.md)|<span style='color:#5c0e0a'><b>困难</b></span>||❌㊙️🔑|
 |560|[和为K的子数组](archive/560.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
+|632|[最小区间](archive/632.md)|<span style='color:#5c0e0a'><b>困难</b></span>|`哈希表` `双指针` `字符串`|❌㊙️|
 |739|[每日温度](archive/739.md)|<span style='color:#EE7337'><b>中等</b></span>|`栈` `哈希表`|❌㊙️|
 |837|[新21点](archive/837.md)|<span style='color:#EE7337'><b>中等</b></span>|`动态规划`|❌㊙️|
 |974|[和可被 K 整除的子数组](archive/974.md)|<span style='color:#EE7337'><b>中等</b></span>|`数组` `哈希表`|❌㊙️|
